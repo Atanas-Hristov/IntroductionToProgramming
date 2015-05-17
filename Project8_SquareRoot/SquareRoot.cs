@@ -6,11 +6,15 @@ namespace Project8_SquareRoot
     {
         static void Main()
         {
-            Double findRoot = 1;
-            Console.Write("Please input a number: ");
-            findRoot = int.Parse(Console.ReadLine());
-            findRoot = Math.Sqrt(findRoot);
-            Console.WriteLine("The square root is: "+ findRoot);
+            Double findRoot;            //Variable for storing the initial number provided from the user.
+            Double ansRoot;             //Variable for storing the answer
+
+            Console.Write("Please input a number: ");       //Ask the user for input
+            findRoot = int.Parse(Console.ReadLine());       //Parse the input to integer type and assign it to variable of type double
+
+            ansRoot = Math.Sqrt(findRoot);                  //Find the square root and assign it to variable
+
+            Console.WriteLine("\nThe square root of " + findRoot +" is:   "+ ansRoot);      //Print your findings to the user
             
         }
     }

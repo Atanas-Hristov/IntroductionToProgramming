@@ -6,7 +6,8 @@ namespace Problem5_PrintYourName
     {
         static void Main()
         {
-            Console.WriteLine("Hello, \nMy name is - Jack The Ripper");
+            Console.WriteLine("Hello, \nMy name is - Jack The Ripper");     //This line write text to the console
+                                                                            // \n is an escape sequance for new line
         }
     }
 }
